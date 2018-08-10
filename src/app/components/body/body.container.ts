@@ -14,7 +14,7 @@ import { Component } from '@angular/core';
       <span [hidden]="droppedData">Drop here</span>
       <span [hidden]="!droppedData">Container now contain: "{{ droppedData }}"!</span>
     </div>
-  `
+  `,
    styles: [
     `
       [mwlDraggable] {
