@@ -3,21 +3,21 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
-import { BodyContainer } from './components/body/body.container';
-import { DragAndDropModule } from 'angular-draggable-droppable';
+import { Modules } from './components/modules/modules';
+import { Nav } from './components/nav/nav';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    BodyContainer
+    Modules,
+    Nav
   ],
   imports: [
-    BrowserModule,
-    DragAndDropModule.forRoot()
+    BrowserModule
   ],
   providers: [],
-  bootstrap: [AppComponent,BodyContainer]
+  bootstrap: [AppComponent]
 })
 
 export class AppModule { 
