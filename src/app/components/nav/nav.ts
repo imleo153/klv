@@ -10,12 +10,9 @@ export class Nav implements OnInit {
   constructor() { }
 
   ngOnInit() { }
-	onSelect(): void {
-		alert("asd");
-		
-	}
 
-	$scope.selectMe = function (event){
-		$(event.target).addClass('active');
-	}
+  isSelected = 1;
+  selected(e){
+  	this.isSelected = e;
+  }
 }

@@ -21,5 +21,5 @@ import { Nav } from './components/nav/nav';
 })
 
 export class AppModule { 
-  
+  public selectedNav = false;
 }

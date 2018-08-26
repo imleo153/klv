@@ -1,10 +1,10 @@
 <div class="nav-list">
 	<div class="nav-btn navbtn01">
 		<ul>
-			<li><a href="#introduction" (click)="selected()" >1</a></li>
-			<li><a href="#about-me" (click)="selected()" >2</a></li>
-			<li><a href="#skills" (click)="selected()" >3</a></li>
-			<li><a href="#contact-me" (click)="selected()" >4</a></li>
+			<li><a href="#introduction" (click)="selected(1)" [ngClass]="isSelected == 1 ? 'is-active' : ''">1</a></li>
+			<li><a href="#about-me" (click)="selected(2)" [ngClass]="isSelected == 2 ? 'is-active' : ''">2</a></li>
+			<li><a href="#skills" (click)="selected(3)" [ngClass]="isSelected == 3 ? 'is-active' : ''">3</a></li>
+			<li><a href="#contact-me" (click)="selected(4)" [ngClass]="isSelected == 4 ? 'is-active' : ''">4</a></li>
 		</ul>
 	</div>
 </div>
