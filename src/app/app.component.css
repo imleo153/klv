@@ -1,3 +1,12 @@
+.container{
+	background: url('../assets/images/touchuniverse.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	max-width: 100% !important;
+}
+
 .content-text{
 	color: white;
 	text-shadow:
@@ -30,11 +39,6 @@ nav div{
 	height: 100vh;
 	color: #FFF;
 	text-shadow: 1px 1px 1px #333;
-	background: url('../assets/images/touchuniverse.jpg') no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
 }
 
 .main-page .center-content{
@@ -61,23 +65,40 @@ nav div{
 	padding-left: 30px;
 	padding-right: 30px;
 	display: flex;
-	flex-direction: column;
 	justify-content: center;
-	align-items: left;
+	align-items: center;
+}
+
+.container-content div{
+	display: flex;
 }
 
 .container-aboutme{
-	background-color: #ff6a00;
+	/*background-color: #ff6a00;*/
 	color: #FFF;
 	text-shadow: 1px 1px 1px #333;
 }
 .container-skills{
-	background-color: #3fff00;
+	/*background-color: #3fff00;*/
 	color: #FFF;
 	text-shadow: 1px 1px 1px #333;
 }
+
+.container-skills .description{
+	float: left;
+	width: 50%;
+	display: inline-block;
+	margin-left: 5rem;
+}
+
+.container-skills .chart{
+	float: right; 
+	height: 50%; 
+	width: 600px;
+}
+
 .container-contactme{
-	background-color: #00a1ff;
+	/*background-color: #00a1ff;*/
 	color: #FFF;
 	text-shadow: 1px 1px 1px #333;
 }
