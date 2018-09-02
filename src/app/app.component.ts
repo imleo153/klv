@@ -56,7 +56,7 @@ LineChart=[];
 					'PHP',
 					'CSS'
 				]
-			};
+			}
 
 		});
 	}
